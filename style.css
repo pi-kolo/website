@@ -173,9 +173,6 @@ li {
     float:left;
 }
 
-#about p {
-    float:left;
-}
 
 #trips {
     padding:30px;
@@ -188,7 +185,29 @@ li {
     .photo {
         width:70%;
     }
+    #about{
+        float:none;
+    }
+    .cont{
+        display: block;
+        text-align: center;
+    }
+    .cont div {
+        display: unset;
+    }
+    #about div{
+        text-align: center;
+        float: none;
+        font-size: 20px;
+    }
+    #me{
+        align-content: center;
+        float:none;
+        width:80%;
+    }
+
 }
+
 
 .social {
     width:100hv;
